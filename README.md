@@ -8,10 +8,12 @@ Utilizes a map of providers to send a single SMS message to a cell phonme number
 npm i --save node-smssendutil
 ```
 ## Usage
-You must first configure the SMSSend object by passing the configuration to its constructor like so:
+You must first include and configure the SMSSend object by passing the configuration to its constructor like so:
 
 ### SMSSend Configuration Example
 ```
+let SMSSend = require('node-sendsmsutil');
+
 let providers = [
     {name: 'Alltel', emailHost: 'message.alltel.com'},
     {name: 'AT&T', emailHost: 'txt.att.net'},
@@ -78,7 +80,7 @@ A full example is as follows:
 ### Full Example
 ```
 let dotenv = require('dotenv');
-let SMSGateway = require('./index.js');
+let SMSSend = require('node-sendsmsutil');
 
 dotenv.config();
 
