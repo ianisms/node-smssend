@@ -1,5 +1,5 @@
 {
-  "name": "node-smssend",
+  "name": "node-smssendutil",
   "version": "1.0.0",
   "description": "Dead simple zero cost SMS sending tool for node apps.  ",
   "main": "index.js",

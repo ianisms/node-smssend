@@ -5,7 +5,7 @@ Utilizes a map of providers to send a single SMS message to a cell phonme number
 ## Setup
 ### Installation via npm
 ```
-npm i --save node-smssend
+npm i --save node-smssendutil
 ```
 ## Usage
 You must first configure the SMSSend object by passing the configuration to its constructor like so:
