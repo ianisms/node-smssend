@@ -1,0 +1,27 @@
+{
+  "name": "node-smssend",
+  "version": "1.0.1",
+  "description": "Dead simple zero cost SMS sending tool for node apps.  ",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianisms/node-smssend.git"
+  },
+  "author": "Ian N. Bennett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ianisms/node-smssend/issues"
+  },
+  "homepage": "https://github.com/ianisms/node-smssend#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "joi": "^13.1.0",
+    "libphonenumber-js": "^0.4.49",
+    "nodemailer": "^4.4.1",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "test": "node test.js"
+  }
+}
