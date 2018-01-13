@@ -45,7 +45,7 @@ let smsSend = new SMSSend(config);
 ### SMSSend Configuration
 | Property | Description | Required? |
 | ---------|-------------|-----------|
-| providers | List of configured SMS providers with the form: ``` {name: 'AT&T', emailHost: 'txt.att.net'} ```.  If not provided the default list will be used. |  true |
+| providers | List of configured SMS providers with the form: ``` {name: 'AT&T', emailHost: 'txt.att.net'} ```.  If not provided the default list will be used. |  false |
 | emailGatewayConfig | Holds the config for the smtp server you will use. | true |
 | emailGatewayConfig.host | The host name for the smtp server. | true |
 | emailGatewayConfig.port | The port for the smtp server. | true |
