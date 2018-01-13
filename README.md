@@ -1,5 +1,5 @@
 # node-smssend
-Dead simple zero cost SMS sending tool for node apps.  
+Dead simple zero cost SMS sending tool for node apps inspired by [TextBelt](https://github.com/typpo/textbelt).  
 
 Utilizes a map of providers to send a single SMS message to a cell phonme number via the given providers SMS via email service.
 ## Setup
@@ -59,7 +59,7 @@ With the SMSSend configured, you can send an SMS message via the sendSMS method 
 smsSend.sendSMS(
     'AT&T',
     process.env.TEST_SMS_NUMBER,
-    'Testing SMSGateway').then((result) => {
+    'Testing SMSSend').then((result) => {
         console.log(`SUCCESS: ${result}`);
     }, (err) => {
         console.log(`FAIL: ${err.message}`);
@@ -120,3 +120,6 @@ smsSend.sendSMS(
         console.log(`FAIL: ${err.message}`);
 });
 ```
+
+### Default Providers List
+You can see the default providers list [here](https://github.com/ianisms/node-smssend/blob/master/defaultProviders.js).

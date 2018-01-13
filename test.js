@@ -34,7 +34,7 @@ let smsSend = new SMSSend(config);
 smsSend.sendSMS(
     'AT&T',
     process.env.TEST_SMS_NUMBER,
-    'Testing SMSGateway').then((result) => {
+    'Testing SMSSend').then((result) => {
         console.log(`SUCCESS: ${result}`);
     }, (err) => {
         console.log(`FAIL: ${err.message}`);
