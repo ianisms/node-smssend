@@ -12,7 +12,7 @@ You must first include and configure the SMSSend object by passing the configura
 
 ### SMSSend Configuration Example
 ```
-let SMSSend = require('node-sendsmsutil');
+let SMSSend = require('node-smssendutil');
 
 let providers = [
     {name: 'Alltel', emailHost: 'message.alltel.com'},
@@ -80,7 +80,7 @@ A full example is as follows:
 ### Full Example
 ```
 let dotenv = require('dotenv');
-let SMSSend = require('node-sendsmsutil');
+let SMSSend = require('node-smssendutil');
 
 dotenv.config();
 

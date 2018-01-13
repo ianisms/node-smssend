@@ -1,6 +1,6 @@
 {
   "name": "node-smssendutil",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Dead simple zero cost SMS sending tool for node apps.  ",
   "main": "index.js",
   "repository": {
